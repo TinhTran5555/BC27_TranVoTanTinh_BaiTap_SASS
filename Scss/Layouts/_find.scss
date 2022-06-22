@@ -71,6 +71,9 @@
             $bd-1,
             $bd-3,
           );
+          &:hover {
+            @include hoverButton
+          }
           margin-top: $mg-6;
         }
       }
